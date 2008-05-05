@@ -1,0 +1,53 @@
+perl-URI-Template
+------------------------------------------
+This is an initial attempt to provide a wrapper around URI templates 
+as described at:
+http://www.ietf.org/internet-drafts/draft-gregorio-uritemplate-01.txt
+
+Runtime requirements:
+  perl-5.10.0-3
+
+Build requirements:
+(besides corresponding -devel packages)
+  cygport-0.3.9-1
+  make-3.81-1
+
+Canonical website:
+  http://search.cpan.org/dist/URI-Template/
+
+Canonical download:
+  http://search.cpan.org/CPAN/authors/id/B/BR/BRICAS/
+
+-------------------------------------------
+
+Build instructions:
+  unpack perl-URI-Template-0.13-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./perl-URI-Template-0.13-X.cygport all
+
+This will create:
+  /usr/src/perl-URI-Template-0.13-X-src.tar.bz2
+  /usr/src/perl-URI-Template-0.13-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/perl5/vendor_perl/5.10/URI/Template.pm
+  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/URI/Template/.packlist
+  /usr/share/doc/perl-URI-Template-0.13/Changes
+  /usr/share/doc/perl-URI-Template-0.13/README
+  /usr/share/man/man3/URI.Template.3pm.gz
+
+------------------
+
+Port Notes:
+
+----- version 0.13-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
