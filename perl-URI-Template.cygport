@@ -1,0 +1,10 @@
+CPAN_AUTHOR=bricas
+inherit perl
+
+NAME="perl-URI-Template"
+VERSION=0.17
+RELEASE=1
+CATEGORY="Perl"
+SUMMARY="Perl URI templates wrapper"
+DESCRIPTION="This module provides a wrapper around URI templates as described
+in RFC 6570."
